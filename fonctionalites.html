@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Z.J Bot - Bot Communautaire</title>
+        <link rel="stylesheet" href="./styles/fonction.css">
+        <link rel="shortcut icon" href="./image/pp.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Icônes -->
+    </head>
+<body>
+    <header>
+        <div class="glass-navbar">
+            <div class="glass-navbar">
+                <div class="logo">
+                    <img src="./image/ban.png" alt="Logo" class="logo-icon">
+                    <span class="logo-text">Z.J Bot</span>
+                </div>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="fonctionalites.html">Fonctionnalités</a></li>
+                        <li><a href="notre-equipe.html">Notre équipe</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                        <li><a href="Privacy Policy.html" >Privacy Policy</a></li>
+                        <li><a href="Terms of Service.html">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            <div class="icons">
+                <a href="https://discord.gg/ubPhFqqUU6" class="icon-link"><i class="fab fa-discord"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-moon"></i></a>
+            </div>
+            <div class="burger-menu"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Section des Fonctionnalités -->
+    <main class="container">
+        <div class="features-grid">
+            <!-- Carte 1 -->
+            <div class="feature-card">
+                <h2>🎭 Gestion des Rôles</h2>
+                <p>Attribuez automatiquement des rôles aux membres et facilitez la gestion de votre serveur.</p>
+            </div>
+
+            <!-- Carte 2 -->
+            <div class="feature-card">
+                <h2>🛡️ Modération Avancée</h2>
+                <p>Modération automatisée : bannissement, suppression des messages et avertissements.</p>
+            </div>
+
+            <!-- Carte 3 -->
+            <div class="feature-card">
+                <h2>🎉 Gestion des Événements</h2>
+                <p>Planifiez et gérez vos événements directement sur Discord avec des notifications.</p>
+            </div>
+
+            <!-- Carte 4 -->
+            <div class="feature-card">
+                <h2>📊 Statistiques</h2>
+                <p>Obtenez des statistiques sur l'activité de votre serveur et des membres.</p>
+            </div>
+
+            <!-- Carte 5 -->
+            <div class="feature-card">
+                <h2>🎵 Musique</h2>
+                <p>Diffusez votre musique préférée avec des commandes simples et rapides.</p>
+            </div>
+
+            <!-- Carte 6 -->
+            <div class="feature-card">
+                <h2>🤖 Commandes Personnalisées</h2>
+                <p>Créez vos propres commandes pour répondre aux besoins spécifiques de votre serveur.</p>
+            </div>
+        </div>
+    </main>
+
+        <section class="support">
+            <h2>Support et Assistance</h2>
+            <p>Si vous avez des questions ou si vous avez besoin d'aide pour utiliser Z.J Bot, n'hésitez pas à rejoindre notre serveur de support officiel sur Discord :</p>
+            <br>
+            <a href="https://discord.gg/57v8cZf" class="join-button">Rejoindre le Support Discord</a>
+        </section>
+    </main>
+
+    <footer>
+        <center>
+            <p>© 2023-2024 Z.J Bot. Tous droits réservés. | <a href="https://discord.gg/57v8cZf">Rejoignez notre serveur de support</a></p>
+        </center>
+    </footer>
+
+    <script>
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navbar = document.querySelector('.navbar');
+
+        burgerMenu.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
