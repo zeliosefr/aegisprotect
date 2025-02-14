@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AEGIS Bot ant-raid </title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="shortcut icon" href="./image/ppaegisaegis.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header>
+        <div class="glass-navbar">
+            <div class="logo">
+                <img src="./image/ppaegisaegis.png" alt="Logo Anti-Raid" class="logo-icon">
+                <span class="logo-text">AEGIS</span>
+            </div>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="documentation.html">Documentation</a></li>
+                    <li><a href="fonctionalites.html">Fonctionnalités</a></li>
+                    <li><a href="notre-equipe.html">Notre équipe</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="privacy policy.html">Politique de Confidentialité</a></li>
+                    <li><a href="terms of service.html">Conditions d'Utilisation</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="https://discord.gg/antiraidbot" class="icon-link"><i class="fab fa-discord"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-moon"></i></a>
+            </div>
+            <div class="burger-menu"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Bannière Personnalisée -->
+    <section class="custom-banner">
+        <img src="./image/bannieraegis.png" alt="Bannière du bot">
+        <div class="banner-text">
+            <h1>Protégez votre serveur avec AEGIS</h1>
+            <p>Votre bouclier contre les raids et les attaques sur Discord.</p>
+        </div>
+    </section>
+
+    <!-- Section Accueil -->
+    <section class="home-section" id="accueil">
+        <div class="home-content">
+            <h1>Qu'est-ce qu'AEGIS ?</h1>
+            <p>AEGIS est un outil puissant conçu pour protéger votre serveur Discord contre les attaques de raids, les spams et autres menaces. Simple à configurer, il offre une sécurité avancée pour vos membres.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2>Exemples et Aperçus</h2>
+        <p>Découvrez comment AEGIS fonctionne avec ces exemples visuels :</p>
+        <div class="examples">
+           <div class="container">
+    <!-- Section 1 : Système de ticket -->
+    <div class="section">
+        <div class="content">
+            <div class="text">
+                <h2>Notre système d'anti-raid.</h2>
+                <p>
+                    Aegis utilise des fonctionnalités avancées pour gérer correctement les attaques sur votre serveur Discord. 
+                    Ceux-ci sont l'anti-mass-role, l'anti-channel, l'anti-spam, , l'anti-lien, et l'anti-bot.
+                </p>
+            </div>
+            <img src="./image/secur.png" alt="Exemple de système de ticket">
+        </div>
+    </div>
+
+    <!-- Section 2 : Sécurité de votre serveur -->
+    <div class="section">
+        <div class="content">
+            <img src="./image/antiraid.png" alt="Exemple de logs de sécurité">
+            <div class="text">
+                <h2>La sécurité de votre serveur.</h2>
+                <p>
+                    Aegis utilise des fonctionnalités avancées pour gérer correctement les attaques sur votre serveur Discord. 
+                    Ceux-ci sont l'anti-mass-role, l'anti-channel, l'anti-spam, , l'anti-lien, et l'anti-bot.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3 : La modération -->
+    <div class="section">
+        <div class="content">
+            <div class="text">
+                <h2>logs </h2>
+                <p>
+                    Aegis offre une vaste gamme de commandes de modération, vous permettant ainsi de gérer votre serveur 
+                    de manière optimale et efficace.
+                </p>
+            </div>
+            <img src="./image/logs link.png" alt="Exemple de modération">
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <!-- Section Fonctionnalités -->
+    <section class="features-section" id="features">
+        <h2>Fonctionnalités Principales</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Détection de Raids</h3>
+                <p>Identifie automatiquement les comportements suspects et empêche les raids avant qu'ils ne se produisent.</p>
+            </div>
+            <div class="feature">
+                <h3>Filtrage Automatique</h3>
+                <p>Bloque les spams, liens malveillants et messages toxiques grâce à des filtres personnalisables.</p>
+            </div>
+            <div class="feature">
+                <h3>Journalisation des Incidents</h3>
+                <p>Enregistre toutes les actions du bot pour vous permettre d'analyser les incidents et ajuster les paramètres.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Section Invitation -->
+    <section class="invite-section" id="invite">
+        <h2>Ajoutez AEGIS à votre serveur Discord !</h2>
+        <br>
+        <a href="https://discord.com/oauth2/authorize?client_id=1253310176409419816" class="invite-button">Inviter le Bot</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 AEGIS Team - Tous droits réservés.</p>
+        <a href="privacy-policy.html">Politique de Confidentialité</a> |
+        <a href="terms-of-service.html">Conditions d'Utilisation</a>
+    </footer>
+
+    <script>
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navbar = document.querySelector('.navbar');
+
+        burgerMenu.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

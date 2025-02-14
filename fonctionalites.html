@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AEGIS Bot Anti-Raid</title>
+        <link rel="stylesheet" href="./styles/fonction.css">
+        <link rel="shortcut icon" href="./image/ppaegisaegis.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Icônes -->
+    </head>
+<body>
+    <header>
+        <div class="glass-navbar">
+            <div class="glass-navbar">
+                <div class="logo">
+                    <img src="./image/bannieraegis.png" alt="Logo" class="logo-icon">
+                    <span class="logo-text">AEGIS Bot</span>
+                </div>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="fonctionalites.html" class="active">Fonctionnalités</a></li>
+                        <li><a href="notre-equipe.html">Notre équipe</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Privacy Policy.html">Privacy Policy</a></li>
+                        <li><a href="Terms of Service.html">Terms of Service</a></li>
+                    </ul>
+                </nav>
+            <div class="icons">
+                <a href="https://discord.gg/ubPhFqqUU6" class="icon-link"><i class="fab fa-discord"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-moon"></i></a>
+            </div>
+            <div class="burger-menu"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Section des Fonctionnalités -->
+    <main class="container">
+        <div class="features-grid">
+            <!-- Carte 1 -->
+            <div class="feature-card">
+                <h2>🚨 Détection Automatique de Raids</h2>
+                <p>Identifiez et bloquez automatiquement les raids en fonction d'un comportement suspect (création de comptes récents, activité intense).</p>
+            </div>
+
+            <!-- Carte 2 -->
+            <div class="feature-card">
+                <h2>🛡️ Filtrage des Messages</h2>
+                <p>Supprimez les messages contenant des liens, mots ou caractères suspects pour protéger votre serveur.</p>
+            </div>
+
+            <!-- Carte 3 -->
+            <div class="feature-card">
+                <h2>🔒 Verrouillage de Serveur</h2>
+                <p>Mettez rapidement le serveur en mode verrouillé pour empêcher de nouveaux membres d'entrer.</p>
+            </div>
+
+            <!-- Carte 4 -->
+            <div class="feature-card">
+                <h2>📋 Journaux d'Activité</h2>
+                <p>Suivez les actions importantes, telles que les bannissements, les suppressions de messages et les modifications de rôle.</p>
+            </div>
+
+            <!-- Carte 5 -->
+            <div class="feature-card">
+                <h2>👤 Gestion des Membres</h2>
+                <p>Bannissez ou expulsez des utilisateurs en masse et attribuez automatiquement des rôles basés sur la confiance.</p>
+            </div>
+
+            <!-- Carte 6 -->
+            <div class="feature-card">
+                <h2>🛠️ Outils de Configuration</h2>
+                <p>Personnalisez les paramètres anti-raid : niveaux de sensibilité, listes blanches et commandes d'activation rapide.</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="support">
+        <h2>Support et Assistance</h2>
+        <p>Si vous avez des questions ou besoin d'aide pour configurer AEGIS Bot, rejoignez notre serveur de support officiel sur Discord :</p>
+        <br>
+        <a href="https://discord.gg/57v8cZf" class="join-button">Rejoindre le Support Discord</a>
+    </section>
+
+    <footer>
+        <center>
+            <p>© 2023-2024 AEGIS Bot. Tous droits réservés. | <a href="https://discord.gg/57v8cZf">Rejoignez notre serveur de support</a></p>
+        </center>
+    </footer>
+
+    <script>
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navbar = document.querySelector('.navbar');
+
+        burgerMenu.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
